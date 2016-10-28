@@ -1,0 +1,14 @@
+* 怎么将类型为时间的字段 在页面上显示   不用 转为字符串 
+* 表单插件和表哥插件整合在一起后样式冲突  不好整     解决   样式冲突   挨个去除怀疑冲突的样式排除
+* bootstrap 下拉菜单选择后 不能显示，解决  使用boostrap 下拉插件 Bootstrap Select
+* 怎么调试html元素 左右对其的间距     在谷歌浏览器中  看margin 和padding  这俩个css属性进行调试
+* bootstrap 某个插件的官网 demo运行效果和本地不一样   这样要查看其网页源码  看看 引入相关js的版本
+* eclipse 一直在 updating maven project  更新jar ，将没有下载完 的jar包删除
+* eclipse 一直在buiding workspace    解决   project/build automatically 的勾去掉
+* 仓库中有jar包  但是eclipse种不能导入对应的类    解决   打开pom.xml 在dependencies视图中 点击add  输入groupId,artifactId,version,然后确定
+* 生成表的时候有问题  报  Make sure that you use the correct column name which depends on the naming strategy in use
+  (it may not be the same as the property name in the entity, especially for relational types)，解决  将定义数据库列的字段名称
+       定义在方法上,不要定义在熟悉字段上
+* 继承PagingAndSortingRepository 分页查询  结果集合为空   原因是 当前页  该接口从0开始算       
+* dataTables ajax请求  报 DataTables warning: table id=example - Ajax error. For more information about this error, please see http://datatables.net/tn/7
+      原因是 服务端转成jsonObject出错了 ，可以用浏览器直接访问 该方法  看看是否报错  (有时服务端并不抱错,但是浏览器范围报错了)

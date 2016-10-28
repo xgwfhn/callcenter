@@ -1,0 +1,8 @@
+bootstrap 下拉菜单插件
+https://github.com/silviomoreto/bootstrap-select
+bootstrap 时间控件
+http://www.malot.fr/bootstrap-datetimepicker/
+
+spring data jpa 分页参考   http://www.myexception.cn/open-source/2046568.html
+
+关于 spring data jpa 动态拼装hql
