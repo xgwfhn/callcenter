@@ -6,3 +6,5 @@ http://www.malot.fr/bootstrap-datetimepicker/
 spring data jpa 分页参考   http://www.myexception.cn/open-source/2046568.html
 
 关于 spring data jpa 动态拼装hql
+
+* 使用 ehcache后，同一个条件下的查询  会被缓存,分页 也会按某页缓存,直至缓存失效,才重新查询数据库

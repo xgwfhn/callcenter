@@ -12,3 +12,4 @@
 * 继承PagingAndSortingRepository 分页查询  结果集合为空   原因是 当前页  该接口从0开始算       
 * dataTables ajax请求  报 DataTables warning: table id=example - Ajax error. For more information about this error, please see http://datatables.net/tn/7
       原因是 服务端转成jsonObject出错了 ，可以用浏览器直接访问 该方法  看看是否报错  (有时服务端并不抱错,但是浏览器范围报错了)
+ * mysql 不能活获取到毫秒  只能精确到秒      
